@@ -1,0 +1,27 @@
+.pt-bage {
+  color: var(--color-inverse);
+  padding: var(--space-xxs) var(--space-s);
+  border-radius: 12px;
+  font-weight: bold;
+  display: inline-block;
+  font-weight: 500;
+  font-family: "Yandex Sans Text";
+  white-space: nowrap;
+
+  /* Переписать на переменные */
+  &_view {
+    &_success {
+      background: #D0F9E5;
+      color: #0F6949;
+    }
+    &_alert {
+      background: #FFEBE7;
+      color: #BE2D17;
+    }
+    &_default {
+      background: var(--color-normal);
+      color: var(--color-typo-inverse);
+    }
+    /* /Переписать на переменные */
+  }
+}

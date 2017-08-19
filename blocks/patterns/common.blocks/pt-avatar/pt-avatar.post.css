@@ -1,0 +1,16 @@
+.pt-avatar {
+  &_size {
+    &_s {
+      width: 42px;
+      height: 42px;
+    }
+    &_m {
+      width: 60px;
+      height: 60px;
+    }
+    &_l {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}

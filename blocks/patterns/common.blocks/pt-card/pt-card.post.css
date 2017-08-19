@@ -1,0 +1,58 @@
+.pt-card {
+  background: var(--color-default);
+  color: var(--color-typo-primary);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  &_view {
+    &_default{
+      box-shadow: none;
+      background: var(--color-default);
+    }
+    &_inverse {
+      background: var(--color-inverse);
+      color: var(--color-typo-inverse);
+    }
+    &_ghost {
+      box-shadow: none;
+      background: var(--color-ghost);
+    }
+  }
+  &_border {
+    &_all {
+      border: 1px solid var(--color-border);
+    }
+  }
+  &_border {
+    &_all {
+      border: 1px solid var(--color-border);
+    }
+  }
+  &_shadow {
+    &_cloud {
+      box-shadow: 0 20px 20px rgba(0,0,0,.08);
+    }
+  }
+  &__header {
+    padding: var(--space-l) var(--space-l) 0px;
+  }
+  &__content {
+    padding: 0px var(--space-l) var(--space-l);
+  }
+  &__footer {
+    padding: 0px var(--space-l) var(--space-l) var(--space-l);
+  }
+  &__control {
+    position: absolute;
+    top: var(--space-l);
+    right: var(--space-l);
+    cursor: pointer;
+    z-index: 99;
+    opacity: 0.4;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

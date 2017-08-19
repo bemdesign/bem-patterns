@@ -1,0 +1,40 @@
+.pt-dialog {
+  &_view {
+    &_default {
+      background: var(--color-default);
+    }
+    &_inverse {
+      background: var(--color-inverse);
+    }
+    &_ghost {
+      background: var(--color-ghost);
+    }
+  }
+  &_border {
+    &_all {
+      border: 1px solid var(--color-border);
+    }
+  }
+  &_shadow {
+    &_cloud {
+      box-shadow: 0 20px 20px rgba(0,0,0,.08);
+    }
+  }
+  &__header {
+    padding: var(--space-s) var(--space-l);
+  }
+  &__content {
+    padding: var(--space-xl);
+  }
+  &__action {
+    padding: var(--space-s) var(--space-l);
+  }
+  &__status {
+    &_size {
+      &_xl {
+        width: 80px;
+        height: 80px;
+      }
+    }
+  }
+}

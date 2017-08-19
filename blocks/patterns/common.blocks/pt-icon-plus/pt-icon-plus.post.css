@@ -1,0 +1,55 @@
+.pt-icon-plus {
+	display: flex;
+	flex-wrap: nowrap;
+  &__block {
+    flex-grow: 1;
+  }
+  &__icon {
+    flex-shrink: 0;
+    &_indent-right {
+      &_xxs {
+        margin-right: var(--space-xxs);
+      }
+      &_xs {
+        margin-right: var(--space-xs);
+      }
+      &_s {
+        margin-right: var(--space-s);
+      }
+      &_m {
+        margin-right: var(--space-m);
+      }
+      &_l {
+        margin-right: var(--space-l);
+      }
+    }
+  }
+	&_vertical-align {
+		&_center {
+			align-items: center;
+		}
+		&_top {
+			align-items: flex-start;
+			& .icon-plus__icon {
+				margin-top: var(--space-xxxs);
+			}
+		}
+	}
+  &_indent {
+    &_xxs {
+      margin-bottom: var(--space-xxs);
+    }
+    &_xs {
+      margin-bottom: var(--space-xs);
+    }
+    &_s {
+      margin-bottom: var(--space-s);
+    }
+    &_m {
+      margin-bottom: var(--space-m);
+    }
+    &_l {
+      margin-bottom: var(--space-l);
+    }
+  }
+}

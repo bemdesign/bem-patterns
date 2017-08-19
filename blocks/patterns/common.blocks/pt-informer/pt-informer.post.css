@@ -1,0 +1,90 @@
+.pt-informer {
+  &_view {
+    &_success {
+      background: var(--color-success);
+      .button2 {
+        &_theme {
+          &_action {
+            &::before {
+              background: var(--color-default);
+            }
+            .button2__text {
+              color: var(--color-success);
+            }
+            &:active {
+              &::before {
+                background: var(--color-default);
+              }
+            }
+          }
+          &_normal {
+            &::before {
+              background: rgba(0,0,0,0.05);
+              border-color: transparent;
+            }
+            .button2__text {
+              color: var(--color-typo-inverse);
+            }
+          }
+        }
+      }
+    }
+    &_alert {
+      background: var(--color-alert);
+    }
+    &_warning {
+      background: #FEDB6B;
+      .button2 {
+        &_theme {
+          &_action {
+            &::before {
+              background: var(--color-default);
+            }
+            &:active {
+              &::before {
+                background: var(--color-default);
+              }
+            }
+          }
+          &_normal {
+            &::before {
+              background: rgba(0,0,0,0.05);
+              border-color: transparent;
+            }
+          }
+        }
+      }
+
+    }
+  }
+  &_border {
+    &_all {
+      border: 1px solid var(--color-border);
+    }
+  }
+  &_shadow {
+    &_cloud {
+      box-shadow: 0 20px 20px rgba(0,0,0,.08);
+    }
+  }
+  &__header {
+    padding: var(--space-m) var(--space-xl);
+  }
+  &__content {
+    padding: 0px var(--space-xl);
+    display: flex;
+  }
+  &__col {
+    width: 100%;
+    flex-shrink: 1;
+    margin-right: var(--space-xl);
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+  &__action {
+    padding: var(--space-l) var(--space-xl);
+    display: flex;
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,199 @@
+.pt-form {
+  &_view {
+    &_default {
+      background: var(--color-default);
+    }
+    &_inverse {
+      background: var(--color-inverse);
+    }
+    &_ghost {
+      background: var(--color-ghost);
+    }
+  }
+  &_border {
+    &_all {
+      border: 1px solid var(--color-border);
+    }
+  }
+  &_shadow {
+    &_cloud {
+      box-shadow: 0 20px 20px rgba(0,0,0,.08);
+    }
+  }
+  &__item {
+    position: relative;
+    &_space-a {
+      &_xs {
+        padding: var(--space-xs);
+      }
+      &_s {
+        padding: var(--space-s);
+      }
+      &_m {
+        padding: var(--space-m);
+      }
+      &_l {
+        padding: var(--space-l);
+      }
+      &_xl {
+        padding: var(--space-xl);
+      }
+    }
+    &_space-v {
+      &_xs {
+        padding-top: var(--space-xs);
+        padding-bottom: var(--space-xs);
+      }
+      &_s {
+        padding-top: var(--space-s);
+        padding-bottom: var(--space-s);
+      }
+      &_m {
+        padding-top: var(--space-m);
+        padding-bottom: var(--space-m);
+      }
+      &_l {
+        padding-top: var(--space-l);
+        padding-bottom: var(--space-l);
+      }
+      &_xl {
+        padding-top: var(--space-xl);
+        padding-bottom: var(--space-xl);
+      }
+    }
+    &_space-h {
+      &_xs {
+        padding-left: var(--space-xs);
+        padding-right: var(--space-xs);
+      }
+      &_s {
+        padding-left: var(--space-s);
+        padding-right: var(--space-s);
+      }
+      &_m {
+        padding-left: var(--space-m);
+        padding-right: var(--space-m);
+      }
+      &_l {
+        padding-left: var(--space-l);
+        padding-right: var(--space-l);
+      }
+      &_xl {
+        padding-left: var(--space-xl);
+        padding-right: var(--space-xl);
+      }
+    }
+    &_space-t {
+      &_xs {
+        padding-top: var(--space-xs);
+        &:fisrt-child {
+          padding-top: 0;
+        }
+      }
+      &_s {
+        padding-top: var(--space-s);
+        &:first-child {
+          padding-top: 0;
+        }
+      }
+      &_m {
+        padding-top: var(--space-m);
+        &:first-child {
+          padding-top: 0;
+        }
+      }
+      &_l {
+        padding-top: var(--space-l);
+        &:first-child {
+          padding-top: 0;
+        }
+      }
+      &_xl {
+        padding-top: var(--space-xl);
+        &:first-child {
+          padding-top: 0;
+        }
+      }
+    }
+    &_space-r {
+      &_xs {
+        padding-right: var(--space-xs);
+      }
+      &_s {
+        padding-right: var(--space-s);
+      }
+      &_m {
+        padding-right: var(--space-m);
+      }
+      &_l {
+        padding-right: var(--space-l);
+      }
+      &_xl {
+        padding-right: var(--space-xl);
+      }
+    }
+    &_space-b {
+      &_xs {
+        padding-bottom: var(--space-xs);
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+      &_s {
+        padding-bottom: var(--space-s);
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+      &_m {
+        padding-bottom: var(--space-m);
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+      &_l {
+        padding-bottom: var(--space-l);
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+      &_xl {
+        padding-bottom: var(--space-xl);
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+    }
+    &_space-l {
+      &_xs {
+        padding-left: var(--space-xs);
+      }
+      &_s {
+        padding-left: var(--space-s);
+      }
+      &_m {
+        padding-left: var(--space-m);
+      }
+      &_l {
+        padding-left: var(--space-l);
+      }
+      &_xl {
+        padding-left: var(--space-xl);
+      }
+    }
+    &_border {
+      &_bottom {
+        border-bottom: 1px solid var(--color-border);
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+      &_top {
+        border-top: 1px solid var(--color-border);
+        &:first-child {
+          border-top: none;
+        }
+      }
+    }
+  }
+}
