@@ -1,0 +1,19 @@
+{
+  "name": "bem-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bemdesign/bem-patterns.git"
+  },
+  "author": "Mikhail Koloskov",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/bemdesign/bem-patterns/issues"
+  },
+  "homepage": "https://github.com/bemdesign/bem-patterns#readme"
+}
