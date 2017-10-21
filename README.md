@@ -38,10 +38,9 @@
 |СЕЛЕКТОР|МИДИФИКАТОР|ЗНАЧЕНИЕ|ОПИСАНИЕ|
 |---|---|---|---|
 |pt-card|view|default / ghost / inverse|Модификаторы для фона блока|
-| | | | |
-| | | | |
-| | | | |
-| | | | |
+|pt-card__header|space-a / space-h / space-v|xs / s / m / l|Модификаторы для внутренних отступов|
+|pt-card__content|space-a / space-h / space-v|xs / s / m / l|Модификаторы для внутренних отступов|
+|pt-card__action|space-a / space-h / space-v|xs / s / m / l|Модификаторы для внутренних отступов|
 
 ## .pt-informer
 |СЕЛЕКТОР|МИДИФИКАТОР|ЗНАЧЕНИЕ|ОПИСАНИЕ|
