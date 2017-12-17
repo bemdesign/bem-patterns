@@ -1,5 +1,5 @@
 .pt-card {
-  background-image: var(--color-default);
+  background-color: var(--color-default);
   color: var(--color-typo-primary);
   box-sizing: border-box;
   display: flex;
@@ -9,15 +9,15 @@
   &_view {
     &_default{
       box-shadow: none;
-      background-image: var(--color-default);
+      background-color: var(--color-default);
     }
     &_inverse {
-      background-image: var(--color-inverse);
+      background-color: var(--color-inverse);
       color: var(--color-typo-inverse);
     }
     &_ghost {
       box-shadow: none;
-      background-image: var(--color-ghost);
+      background-color: var(--color-ghost);
     }
   }
   &_border {
