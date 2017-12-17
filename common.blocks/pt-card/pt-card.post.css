@@ -8,7 +8,6 @@
   height: 100%;
   &_view {
     &_default{
-      box-shadow: none;
       background-color: var(--color-default);
     }
     &_inverse {
@@ -16,7 +15,6 @@
       color: var(--color-typo-inverse);
     }
     &_ghost {
-      box-shadow: none;
       background-color: var(--color-ghost);
     }
   }
