@@ -64,7 +64,7 @@
         padding-bottom: var(--space-xl);
       }
       &_xxl {
-        padding: var(--space-xxl);
+        padding-top: var(--space-xxl);
         padding-bottom: var(--space-xxl);
       }
     }
