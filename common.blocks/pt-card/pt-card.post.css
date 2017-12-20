@@ -12,6 +12,41 @@
       color: var(--color-typo-inverse);
     }
   }
+  &__image {
+    img {
+      width: 100%;
+    }
+    &_shadow {
+      &_default {
+        &:after {
+          content: '';
+          position: absolute;
+          left: 0px;
+          bottom: 0px;
+          height: 228px;
+          width: 100%;
+          background: inset 0 -20px 20px var(--color-default);
+        }
+      }
+      &_inverse {
+        &:after {
+          content: '';
+          position: absolute;
+          left: 0px;
+          bottom: 0px;
+          height: 228px;
+          width: 100%;
+          background: inset 0 -20px 20px var(--color-inverse);
+        }
+      }
+    }
+    &_size {
+      &_cover {
+        position: absolute;
+        height: 100%;
+      }
+    }
+  }
   &_border {
     &_all {
       border: 1px solid var(--color-border);
@@ -295,6 +330,12 @@
     top: 0;
     left: 0;
     width: 100%;
+    &_align {
+      &_between {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
     &_space-a {
       &_xs {
         padding: var(--space-xs);
