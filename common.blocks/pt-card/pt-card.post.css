@@ -13,6 +13,7 @@
     }
   }
   &__image {
+    z-index: 99;
     img {
       width: 100%;
     }
@@ -25,7 +26,7 @@
           bottom: 0px;
           height: 228px;
           width: 100%;
-          background: inset 0 -20px 20px var(--color-default);
+          background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 1) 90%);
         }
       }
       &_inverse {
@@ -36,7 +37,7 @@
           bottom: 0px;
           height: 228px;
           width: 100%;
-          background: inset 0 -20px 20px var(--color-inverse);
+          background-image: linear-gradient(to bottom, rgba(26, 26, 26, 0) 20%, rgba(26, 26, 26, 1) 90%);
         }
       }
     }
@@ -305,6 +306,7 @@
     &_align {
       &_between {
         display: flex;
+        align-items: center;
         justify-content: space-between;
       }
     }
