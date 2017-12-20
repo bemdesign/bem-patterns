@@ -62,6 +62,7 @@
     top: 0;
     left: 0;
     width: 100%;
+    box-sizing: border-box;
     &_space-a {
       &_xs {
         padding: var(--space-xs);
@@ -211,39 +212,24 @@
     &_space-t {
       &_xs {
         padding-top: var(--space-xs);
-        &:first-child {
-          padding-top: 0;
-        }
       }
       &_s {
         padding-top: var(--space-s);
-        &:first-child {
-          padding-top: 0;
-        }
       }
       &_m {
         padding-top: var(--space-m);
-        &:first-child {
-          padding-top: 0;
-        }
       }
       &_l {
         padding-top: var(--space-l);
-        &:first-child {
-          padding-top: 0;
-        }
       }
       &_xl {
         padding-top: var(--space-xl);
-        &:first-child {
-          padding-top: 0;
-        }
       }
       &_xxl {
         padding-top: var(--space-xxl);
-        &:first-child {
-          padding-top: 0;
-        }
+      }
+      &_xxxl {
+        padding-top: var(--space-xxxl);
       }
     }
     &_space-r {
@@ -263,45 +249,30 @@
         padding-right: var(--space-xl);
       }
       &_xxl {
-        padding-right: var(--space-xl);
+        padding-right: var(--space-xxl);
       }
     }
     &_space-b {
       &_xs {
         padding-bottom: var(--space-xs);
-        &:last-child {
-          padding-bottom: 0;
-        }
       }
       &_s {
         padding-bottom: var(--space-s);
-        &:last-child {
-          padding-bottom: 0;
-        }
       }
       &_m {
         padding-bottom: var(--space-m);
-        &:last-child {
-          padding-bottom: 0;
-        }
       }
       &_l {
         padding-bottom: var(--space-l);
-        &:last-child {
-          padding-bottom: 0;
-        }
       }
       &_xl {
         padding-bottom: var(--space-xl);
-        &:last-child {
-          padding-bottom: 0;
-        }
       }
       &_xxl {
         padding-bottom: var(--space-xxl);
-        &:last-child {
-          padding-bottom: 0;
-        }
+      }
+      &_xxxl {
+        padding-bottom: var(--space-xxxl);
       }
     }
     &_space-l {
@@ -330,6 +301,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
+    box-sizing: border-box;
     &_align {
       &_between {
         display: flex;
