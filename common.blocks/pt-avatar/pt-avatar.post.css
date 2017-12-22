@@ -1,10 +1,12 @@
 .pt-avatar {
   &__photo {
     &_view {
-      background: red; 
+      &_example {
+        background-color: red;
+      }
     }
     &_size {
-      &_xs {
+      &_xxs {
         width: 24px;
         height: 24px;
       }
