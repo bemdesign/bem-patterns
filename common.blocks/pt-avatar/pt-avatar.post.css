@@ -1,8 +1,16 @@
 .pt-avatar {
   &_size {
+    &_xs {
+      width: 24px;
+      height: 24px;
+    }
+    &_xs {
+      width: 32px;
+      height: 32px;
+    }
     &_s {
-      width: 42px;
-      height: 42px;
+      width: 40px;
+      height: 40px;
     }
     &_m {
       width: 60px;
