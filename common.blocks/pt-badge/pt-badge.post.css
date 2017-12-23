@@ -1,11 +1,10 @@
-.pt-bage {
+.pt-badge {
   color: var(--color-inverse);
   padding: var(--space-xxs) var(--space-s);
   border-radius: 12px;
   font-weight: bold;
   display: inline-block;
   font-weight: 500;
-  font-family: "Yandex Sans Text";
   white-space: nowrap;
    
   &_display {
