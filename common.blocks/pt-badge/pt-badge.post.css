@@ -1,7 +1,7 @@
 .pt-badge {
   color: var(--color-inverse);
   padding: var(--space-xxs) var(--space-s);
-  border-radius: 12px;
+  border-radius: 48px;
   font-weight: bold;
   display: inline-block;
   font-weight: 500;
@@ -16,12 +16,12 @@
   /* Переписать на переменные */
   &_view {
     &_success {
-      background: #D0F9E5;
-      color: #0F6949;
+      background: var(--color-success);
+      color: var(--color-typo-inverse);
     }
     &_alert {
-      background: #FFEBE7;
-      color: #BE2D17;
+      background: var(--color-alert);
+      color: var(--color-typo-inverse);
     }
     &_default {
       background: var(--color-normal);
@@ -33,4 +33,6 @@
     }
     /* /Переписать на переменные */
   }
+
+  
 }
