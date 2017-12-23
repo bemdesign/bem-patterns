@@ -336,6 +336,11 @@
       }
     }
   }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   &__footer {
     position: absolute;
     bottom: 0;
