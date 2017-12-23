@@ -1,5 +1,6 @@
 .pt-avatar {
   &__photo {
+    border-radius: 50%;
     &_view {
       &_example {
         background-color: red;
