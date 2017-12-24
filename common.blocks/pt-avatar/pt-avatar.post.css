@@ -3,7 +3,8 @@
     border-radius: 50%;
     &_view {
       &_example {
-        background-color: red;
+        background-image: url('pt-avatar_view_example.png');
+        background-size: 100%;
       }
     }
     &_size {
