@@ -1,0 +1,191 @@
+.pt-surface {
+  z-index: 99999;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  display: none;
+  -webkit-overflow-scrolling: touch;
+  
+  &_view {
+    &_tone {
+      background: var(--color-tone);
+    }
+    &_soft {
+      background: var(--color-soft);
+    }
+  }
+  &__window {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    z-index: 99999;
+  }
+  &__content {
+    margin: auto;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    &_space-a {
+      &_s {
+        padding: var(--space-s);
+      }
+      &_m {
+        padding: var(--space-m);
+      }
+      &_l {
+        padding: var(--space-l);
+      }
+      &_xl {
+        padding: var(--space-xl);
+      }
+    }
+    &_space-v {
+      &_s {
+        padding-top: var(--space-s);
+        padding-bottom: var(--space-s);
+      }
+      &_m {
+        padding-top: var(--space-m);
+        padding-bottom: var(--space-m);
+      }
+      &_l {
+        padding-top: var(--space-l);
+        padding-bottom: var(--space-l);
+      }
+      &_xl {
+        padding-top: var(--space-xl);
+        padding-bottom: var(--space-xl);
+      }
+    }
+    &_space-h {
+      &_s {
+        padding-left: var(--space-s);
+        padding-right: var(--space-s);
+      }
+      &_m {
+        padding-left: var(--space-m);
+        padding-right: var(--space-m);
+      }
+      &_l {
+        padding-left: var(--space-l);
+        padding-right: var(--space-l);
+      }
+      &_xl {
+        padding-left: var(--space-xl);
+        padding-right: var(--space-xl);
+      }
+    }
+    &_space-t {
+      &_s {
+        padding-top: var(--space-s);
+      }
+      &_m {
+        padding-top: var(--space-m);
+      }
+      &_l {
+        padding-top: var(--space-l);
+      }
+      &_xl {
+        padding-top: var(--space-xl);
+      }
+      &_xxl {
+        padding-top: var(--space-xxl);
+      }
+      &_xxxl {
+        padding-top: var(--space-xxxl);
+      }
+      &_4xl {
+        padding-top: calc(2*var(--space-xxl));
+      }
+    }
+    &_space-b {
+      &_s {
+        padding-bottom: var(--space-s);
+      }
+      &_m {
+        padding-bottom: var(--space-m);
+      }
+      &_l {
+        padding-bottom: var(--space-l);
+      }
+      &_xl {
+        padding-bottom: var(--space-xl);
+      }
+    }
+    &_space-l {
+      &_s {
+        padding-left: var(--space-s);
+      }
+      &_m {
+        padding-left: var(--space-m);
+      }
+      &_l {
+        padding-left: var(--space-l);
+      }
+      &_xl {
+        padding-left: var(--space-xl);
+      }
+    }
+    &_space-r {
+      &_s {
+        padding-right: var(--space-s);
+      }
+      &_m {
+        padding-right: var(--space-m);
+      }
+      &_l {
+        padding-right: var(--space-l);
+      }
+      &_xl {
+        padding-right: var(--space-xl);
+      }
+    }
+    &_size {
+      &_xs {
+        width: 500px;
+      }
+      &_s {
+        width: 880px;
+      }
+      &_m {
+        width: 1144px;
+      }
+      &_full {
+        width: 100%;
+      }
+    }
+    &_view {
+      &_default {
+        background: var(--color-default);
+      }
+    }
+  }
+  &__close {
+    position: absolute;
+    top: var(--space-m);
+    right: var(--space-m);
+    cursor: pointer;
+    transition: opacity 0.2s ease-out 0s;
+    z-index: 10;
+
+    &:hover {
+      opacity: 1;
+      transition: none;
+    }
+    
+    &_view {
+      &_desktop {
+        width: 24px;
+        height: 24px;
+      }
+      &_mobile {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}

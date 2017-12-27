@@ -1,38 +1,16 @@
 .pt-badge {
-  color: var(--color-inverse);
-  padding: var(--space-xxs) var(--space-s);
-  border-radius: 48px;
-  font-weight: bold;
-  display: inline-block;
-  font-weight: 500;
-  white-space: nowrap;
-   
-  &_display {
-    &_block {
-      display: block;
-    }
-  }
-  
-  /* Переписать на переменные */
-  &_view {
-    &_success {
-      background: var(--color-success);
-      color: var(--color-typo-inverse);
-    }
-    &_alert {
-      background: var(--color-alert);
-      color: var(--color-typo-inverse);
-    }
-    &_default {
-      background: var(--color-normal);
-      color: var(--color-typo-inverse);
-    }
-    &_ghost-inverse {
-      background: rgba(255,255,255,0.2);
-      color: var(--color-typo-inverse);
-    }
-    /* /Переписать на переменные */
-  }
-
-  
+	display: inline-block;
+	height: 24px;
+	max-width: 100%;
+	box-sizing: border-box;
+	padding: $space-xxs $space-s;
+	overflow: hidden;
+	
+	color: var(--color-inverse);
+	border-radius: 12px;
+	
+	font-weight: bold;
+	font-weight: 500;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }

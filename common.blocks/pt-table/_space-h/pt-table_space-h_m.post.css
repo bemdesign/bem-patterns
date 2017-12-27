@@ -1,0 +1,4 @@
+.pt-table_space-h_m .pt-table__col {
+	padding-left: $space-m;
+	padding-right: $space-m;
+}

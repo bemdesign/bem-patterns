@@ -1,0 +1,14 @@
+.pt-table {
+  &_view {
+    &_inverse {
+      .pt-table__row {
+        background: var(--color-inverse);
+        &_view {
+          &_head {
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
+}

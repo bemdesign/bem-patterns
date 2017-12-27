@@ -1,0 +1,26 @@
+.pt-avatar__photo {
+	&_view {
+		&_example {
+			border-radius: 50%;
+			overflow: hidden;
+			display: flex;
+			background-image: url('example.png');
+			background-size: 100%;
+		}
+	}
+	&_size {
+		&_l {
+			width: 80px;
+			height: 80px;
+		}
+		&_m {
+			width: 60px;
+			height: 60px;
+		}
+		&_s {
+			width: 42px;
+			height: 42px;
+		}
+	}
+
+}

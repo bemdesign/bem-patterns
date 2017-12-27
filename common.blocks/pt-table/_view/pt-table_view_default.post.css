@@ -1,0 +1,19 @@
+.pt-table {
+  &_view {
+    &_default {
+      & > .pt-table__row {
+        background: var(--color-default);
+
+        &:hover {
+          background: rgba(0, 0, 0, 0.02);
+        }
+
+        &_view {
+          &_head, &_head:hover {
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
+}

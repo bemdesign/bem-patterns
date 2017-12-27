@@ -1,55 +1,89 @@
 .pt-icon-plus {
 	display: flex;
 	flex-wrap: nowrap;
+  
   &__block {
     flex-grow: 1;
+		position: relative;
+		top: 1px; /* fix */
   }
   &__icon {
+    margin-top: .2em;
     flex-shrink: 0;
     &_indent-right {
       &_xxs {
-        margin-right: var(--space-xxs);
+        margin-right: $space-xxs;
       }
       &_xs {
-        margin-right: var(--space-xs);
+        margin-right: $space-xs;
       }
       &_s {
-        margin-right: var(--space-s);
+        margin-right: $space-s;
       }
       &_m {
-        margin-right: var(--space-m);
+        margin-right: $space-m;
       }
       &_l {
-        margin-right: var(--space-l);
+        margin-right: $space-l;
       }
     }
+		&_indent-left {
+			&_xxs {
+				margin-left: $space-xxs;
+			}
+			&_xs {
+				margin-left: $space-xs;
+			}
+			&_s {
+				margin-left: $space-s;
+			}
+			&_m {
+				margin-left: $space-m;
+			}
+			&_l {
+				margin-left: $space-l;
+			}
+		}
   }
 	&_vertical-align {
 		&_center {
 			align-items: center;
+			.pt-icon-plus__icon {
+				margin-top: 0px;
+			}
 		}
 		&_top {
 			align-items: flex-start;
 			& .icon-plus__icon {
-				margin-top: var(--space-xxxs);
+				margin-top: $space-xxxs;
 			}
 		}
 	}
   &_indent {
     &_xxs {
-      margin-bottom: var(--space-xxs);
+      margin-bottom: $space-xxs;
     }
     &_xs {
-      margin-bottom: var(--space-xs);
+      margin-bottom: $space-xs;
     }
     &_s {
-      margin-bottom: var(--space-s);
+      margin-bottom: $space-s;
     }
     &_m {
-      margin-bottom: var(--space-m);
+      margin-bottom: $space-m;
     }
     &_l {
-      margin-bottom: var(--space-l);
+      margin-bottom: $space-l;
+    }
+  }
+  &_distribute {
+    &_default {
+      display: flex;
+      justify-content: flex-start;
+    }
+    &_between {
+      display: flex;
+      justify-content: space-between;
     }
   }
 }

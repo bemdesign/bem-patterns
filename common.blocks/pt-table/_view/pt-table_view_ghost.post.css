@@ -1,0 +1,14 @@
+.pt-table {
+  &_view {
+    &_ghost {
+      .pt-table__row {
+        background: var(--color-ghost);
+        &_view {
+          &_head {
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
+}

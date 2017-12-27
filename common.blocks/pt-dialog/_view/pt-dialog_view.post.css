@@ -1,0 +1,13 @@
+.pt-dialog {
+  &_view {
+    &_default {
+      background: var(--color-default);
+    }
+    &_inverse {
+      background: var(--color-inverse);
+    }
+    &_ghost {
+      background: var(--color-ghost);
+    }
+  }
+}
