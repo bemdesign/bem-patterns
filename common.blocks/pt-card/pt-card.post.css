@@ -12,10 +12,10 @@
 		left: 50%;
 		margin-left: -$space-l ;
 		margin-top: -$space-l ;
-		width: 0; 
-		height: 0; 
+		width: 0;
+		height: 0;
 		border-top: $space-l solid transparent;
-		border-bottom: $space-l solid transparent; 
+		border-bottom: $space-l solid transparent;
 		border-left: $space-xxl solid var(--color-default);
 		cursor: pointer;
 		&:hover {
@@ -424,6 +424,29 @@
 			&_xxl {
 				padding-left: var(--space-xxl);
 				padding-right: var(--space-xxl);
+			}
+		}
+		&_space-b {
+			&_xs {
+				padding-bottom: var(--space-xs);
+			}
+			&_s {
+				padding-bottom: var(--space-s);
+			}
+			&_m {
+				padding-bottom: var(--space-m);
+			}
+			&_l {
+				padding-bottom: var(--space-l);
+			}
+			&_xl {
+				padding-bottom: var(--space-xl);
+			}
+			&_xxl {
+				padding-bottom: var(--space-xxl);
+			}
+			&_xxxl {
+				padding-bottom: var(--space-xxxl);
 			}
 		}
 	}
