@@ -1,12 +1,26 @@
 $('.pt-surface__action').on('click', function(){
-    showPopup();
+	showPopup();
 });
 
 $('.pt-surface__close').on('click', function(){
-   $('.pt-surface').fadeOut(220);
+	hidePopup();
 });
 
 function showPopup() {
-    var attribute = $(event.target.attributes['data-name']).val();
-   $("div#"+attribute).fadeIn(220);
+	var attribute = $(event.target.attributes['data-name']).val();
+
+	$("div#"+attribute).fadeIn(220);
+	$('body').attr('style', 'height: 100vh; overflow: hidden;');
 }
+
+function hidePopup() {
+	$('.pt-surface').fadeOut(220);
+	$('body').attr('style', '');
+}
+
+document.onkeydown = function(evt) {
+	evt = evt || window.event;
+	if (evt.keyCode == 27) {
+		hidePopup();
+	}
+};
