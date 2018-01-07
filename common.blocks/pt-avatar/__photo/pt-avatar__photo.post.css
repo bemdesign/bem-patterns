@@ -21,6 +21,9 @@
 			width: 42px;
 			height: 42px;
 		}
+		&_xs {
+			width: 32px;
+			height: 32px;
+		}
 	}
-
 }
