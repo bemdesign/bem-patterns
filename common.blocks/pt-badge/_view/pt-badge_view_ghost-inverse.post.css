@@ -1,5 +1,4 @@
 .pt-badge_view_ghost-inverse {
-	color: var(--color-ghost-inverse);
-	background: none;
-	border: 1px solid;
+	color: var(--color-inverse);
+	background-color: var(--color-ghost-inverse);
 }
