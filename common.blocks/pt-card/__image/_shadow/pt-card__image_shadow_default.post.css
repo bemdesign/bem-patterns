@@ -1,0 +1,11 @@
+.pt-card__image_shadow_default {
+	&:after {
+		content: '';
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+		height: 80%;
+		width: 100%;
+		background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0.7) 40%, rgba(255, 255, 255, 1) 60%);
+	}
+}

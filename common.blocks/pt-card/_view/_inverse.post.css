@@ -1,0 +1,4 @@
+.pt-card_view_inverse {
+	background-color: var(--color-inverse);
+	color: var(--color-typo-inverse);
+}

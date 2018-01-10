@@ -1,0 +1,5 @@
+.pt-card__foter_align_between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}

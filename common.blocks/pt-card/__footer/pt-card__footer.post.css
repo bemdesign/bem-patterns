@@ -1,0 +1,8 @@
+.pt-card__footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 99;
+	box-sizing: border-box;
+}

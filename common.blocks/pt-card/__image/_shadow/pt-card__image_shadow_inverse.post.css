@@ -1,0 +1,11 @@
+.pt-card__image_shadow_inverse {
+	&:after {
+		content: '';
+		position: absolute;
+		left: 0px;
+		bottom: 0px;
+		height: 80%;
+		width: 100%;
+		background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 1) 60%);
+	}
+}
