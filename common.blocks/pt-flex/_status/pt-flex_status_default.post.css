@@ -1,0 +1,3 @@
+.pt-flex_status_default {
+	border-left: $space-xxs solid var(--color-normal);
+}

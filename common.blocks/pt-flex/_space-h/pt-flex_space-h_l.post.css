@@ -1,0 +1,9 @@
+.pt-flex_space-h_l {
+	padding-left: calc(var(--space-l) / 2);
+	padding-right: calc(var(--space-l) / 2);
+
+	& .pt-flex__col {
+		padding-left: calc(var(--space-l) / 2);
+		padding-right: calc(var(--space-l) / 2);
+	}
+}

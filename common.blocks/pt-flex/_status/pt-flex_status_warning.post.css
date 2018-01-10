@@ -1,0 +1,3 @@
+.pt-flex_status_warning {
+	border-left: $space-xxs solid var(--color-action);
+}
