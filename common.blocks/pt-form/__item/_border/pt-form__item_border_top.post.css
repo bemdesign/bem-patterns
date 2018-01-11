@@ -1,0 +1,6 @@
+.pt-form__item_border_bottom {
+	border-top: 1px solid var(--color-border);
+	&:first-child {
+		border-top: none;
+	}
+}

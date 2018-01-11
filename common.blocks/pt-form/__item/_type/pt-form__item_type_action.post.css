@@ -1,0 +1,4 @@
+.pt-form__item_type_action {
+	display: flex;
+	justify-content: space-between;
+}
