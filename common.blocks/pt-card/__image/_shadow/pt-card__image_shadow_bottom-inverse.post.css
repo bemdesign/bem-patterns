@@ -1,4 +1,4 @@
-.pt-card__image_shadow_inverse {
+.pt-card__image_shadow_bottom-inverse {
 	&:after {
 		content: '';
 		position: absolute;
