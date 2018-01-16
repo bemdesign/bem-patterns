@@ -1,7 +1,3 @@
-.pt-dialog {
-  &_shadow {
-    &_cloud {
-      box-shadow: 0 20px 20px rgba(0,0,0,.08);
-    }
-  }
+.pt-dialog_shadow_cloud {
+	box-shadow: 0 20px 20px rgba(0,0,0,.08);
 }

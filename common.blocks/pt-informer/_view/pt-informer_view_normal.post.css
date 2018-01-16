@@ -1,0 +1,21 @@
+.pt-informer_view_normal {
+	background: #a1a5a6;
+	.button2_theme {
+		&_action {
+			&::before {
+				background: var(--color-default);
+			}
+			&:active {
+				&::before {
+					background: var(--color-default);
+				}
+			}
+		}
+		&_normal {
+			&::before {
+				background: rgba(0,0,0,0.05);
+				border-color: transparent;
+			}
+		}
+	}
+}

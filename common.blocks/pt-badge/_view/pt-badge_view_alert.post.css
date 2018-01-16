@@ -1,4 +1,4 @@
 .pt-badge_view_alert {
-	background: rgba(240, 12, 12, 0.1);
-	color: rgb(238, 45, 45);
+	background: color(var(--color-alert) a(10%));
+	color: var(--color-typo-alert);
 }

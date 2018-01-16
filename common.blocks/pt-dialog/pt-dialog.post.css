@@ -1,8 +1,3 @@
 .pt-dialog {
-	&__content {
-		padding: var(--space-xl);
-	}
-	&__action {
-		padding: var(--space-s) var(--space-l);
-	}
+
 }

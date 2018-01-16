@@ -1,7 +1,7 @@
 .pt-table__row_border_top {
 	margin-top: 0px;
 	border-top: 1px solid var(--color-border);
-	&:last-top {
+	&:last-child {
 		border-top: none;
 	}
 }

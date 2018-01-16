@@ -1,9 +1,9 @@
 .pt-badge {
 	display: inline-block;
-	height: 24px;
+	height: var(--space-xl);
 	max-width: 100%;
 	box-sizing: border-box;
-	padding: $space-xxs $space-s;
+	padding: var(--space-xxs) var(--space-s);
 	overflow: hidden;
 	
 	color: var(--color-inverse);

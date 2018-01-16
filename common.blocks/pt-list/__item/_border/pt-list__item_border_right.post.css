@@ -1,0 +1,6 @@
+.pt-list__item_border_right {
+	border-right: 1px solid var(--color-border);
+	&:last-child {
+		border-bottom: none;
+	}
+}

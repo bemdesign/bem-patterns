@@ -1,4 +1,4 @@
 .pt-badge_view_success {
-	background: #D0F9E5;
-	color: #027b4e;
+	background: color(var(--color-success) s(-20%) l(+60%));
+	color: var(--color-typo-success);
 }
