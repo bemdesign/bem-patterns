@@ -1,16 +1,8 @@
 .pt-dialog {
-  &__content {
-    padding: $space-xl;
-  }
-  &__action {
-    padding: $space-s $space-l;
-  }
-  &__status {
-    &_size {
-      &_xl {
-        width: 80px;
-        height: 80px;
-      }
-    }
-  }
+	&__content {
+		padding: var(--space-xl);
+	}
+	&__action {
+		padding: var(--space-s) var(--space-l);
+	}
 }

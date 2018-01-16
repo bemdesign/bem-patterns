@@ -1,3 +1,6 @@
 .pt-table_stripe_odd > .pt-table__row:nth-child(2n-1) {
 	background: rgba(0, 0, 0, .02);
 }
+.pt-table_stripe_even > .pt-table__row {
+	margin-top: 0;
+}
