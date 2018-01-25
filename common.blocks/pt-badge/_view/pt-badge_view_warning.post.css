@@ -1,4 +1,4 @@
 .pt-badge_view_warning {
-	background: color(var(--color-warn) a(40%));
-	color: color(var(--color-warn) h(-17%) s(-1%) l(-10%));
+	background: color($color-warn a(40%));
+	color: color($color-warn h(-17%) s(-1%) l(-10%));
 }
