@@ -1,12 +1,12 @@
-$('.pt-surface__action').on('click', function(){
-	showPopup();
+$('.pt-surface__action').on('click', function(e){
+	showPopup(e);
 });
 
 $('.pt-surface__close').on('click', function(){
 	hidePopup();
 });
 
-function showPopup() {
+function showPopup(event) {
 	var attribute = $(event.target.attributes['data-name']).val();
 
 	$("div#"+attribute).fadeIn(220);
