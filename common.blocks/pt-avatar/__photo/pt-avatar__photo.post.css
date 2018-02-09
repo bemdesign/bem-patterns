@@ -1,5 +1,6 @@
 .pt-avatar__photo {
 	border-radius: 50%;
+	height: 100%;
 	overflow: hidden;
 	background-image: url('example.png');
 	background-size: cover;

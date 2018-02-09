@@ -1,0 +1,6 @@
+.pt-table__row_stripe_even {
+	margin-bottom: 0px;
+	&:nth-child(2n) {
+		background: rgba(0,0,0,0.02);
+	}
+}

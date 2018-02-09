@@ -1,9 +1,9 @@
 .pt-table__row {
 	position: relative;
 	display: flex;
-	justify-content: baseline;
+	align-items: baseline;
 	flex-wrap: nowrap;
-	margin-top: $space-xs;
+	margin-top: var(--space-xs);
 	transition: background-color 0.5s ease-out;
 
 	&:first-child {
