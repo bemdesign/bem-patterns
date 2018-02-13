@@ -1,0 +1,14 @@
+.pt-tag_size_s {
+	height: calc(var(--space-xl) + var(--space-xxs));
+
+	padding: 0 var(--space-s);
+	border-radius: var(--space-m);
+
+	font-size: var(--size-typo-s);
+	line-height: var(--line-height-typo-s);
+
+	& > .pt-tag__delete {
+		margin: 0 -$space-xxs 0 $space-xxs;
+		cursor: pointer;
+	}
+}

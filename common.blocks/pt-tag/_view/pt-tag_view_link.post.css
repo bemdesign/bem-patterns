@@ -1,0 +1,11 @@
+.pt-tag_view_link {
+	color: var(--color-typo-secondary);
+	background: color($color-link h(-7%) s(-13) l(+14) a(40%));
+	cursor: pointer;
+	transition: background .3s ease;
+	text-decoration: none;
+
+	&:hover {
+		background: color($color-link h(-7%) s(-13) l(+14) a(50%));
+	}
+}
