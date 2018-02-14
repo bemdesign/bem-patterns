@@ -45,7 +45,6 @@
 	attrs: { 'data-name': 'modal-1' },
 	content: 'Open Modal'
 }
-
 {
 	block: 'pt-surface',
 	attrs: {
