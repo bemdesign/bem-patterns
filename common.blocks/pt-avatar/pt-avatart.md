@@ -7,14 +7,9 @@
 	block: 'pt-avatar',
 	content: [
 		{
-			block: 'pt-avatar',
-			content: [
-				{
-					elem: 'photo',
-					elemMods: { size: 'm' },
-					content: [ ... ]
-				}
-			]
+			elem: 'photo',
+			elemMods: { size: 'm' },
+			content: [ ... ]
 		}
 	]
 }
