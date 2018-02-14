@@ -3,7 +3,7 @@
 
 
 ## Пример
-```
+```javascript
 {
 	block: 'pt-form',
 	mods: { view: 'ghost' },
