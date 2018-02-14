@@ -11,9 +11,7 @@
 	{
 		elem: 'item',
 		elemMods: { 'space-h': 'xl', 'space-v': 'xl', },
-		content: [
-			'Free to join'
-		]
+		content: [ 'Free to join' ]
 	},
 	{
 		elem: 'item',
@@ -23,45 +21,27 @@
 				elem: 'item',
 				elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
 				content: [
-					{
-						elem: 'label',
-						...
-					},
-					{
-						elem: 'control',
-						...
-					}
+					{ elem: 'label' },
+					{ elem: 'control' }
 				]
 			},
 			{
 				elem: 'item',
 				elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
 				content: [
-					{
-						elem: 'label',
-						...
-					},
-					{
-						elem: 'control',
-						...
-					}
+					{ elem: 'label' },
+					{ elem: 'control' }
 				]
-			}
+			},
+
 		]
 	},
 	{
 		elem: 'item',
 		elemMods: { 'space-a': 'xl', type: 'action', 'vertical-align': 'center' },
 		content: [
-			{
-				block: 'text',
-				...
-
-			},
-			{
-				block: 'button',
-				...
-			}
+			{ block: 'text' },
+			{ block: 'button' }
 		]
 	}]
 }
