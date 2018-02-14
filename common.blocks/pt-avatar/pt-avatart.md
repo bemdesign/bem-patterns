@@ -5,7 +5,6 @@
 ```
 {
 	block: 'pt-avatar',
-	mods: { size: 's', view: 'default' },
 	content: [
 		{
 			block: 'pt-avatar',
