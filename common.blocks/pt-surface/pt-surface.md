@@ -1,21 +1,20 @@
-# PT-SURFACE
-Pattern for modal blocks. Should have the ID.
+# pt-surface
+Блок предназначен для перекрывающих слоев/поверхностей. Он есть в двух модификациях, темной (паранджа) и светлая (молоко). Так же есть модификации на размер контентной области.
 
-## MODIFICATORS
+### pt-surcafe
+
 | name        | value           | description                      |
 | ----------- | --------------- | -------------------------------- |
 | view        | tone / default  | color of background with opacity |
 
 
-## CHILDS
+### __window
 
-### Window
-Child for align content in center.
+Элемент для центрального вырвнивания контента
 
-### Content
-Child for content. Contains close button.
+### __content
 
-#### Modificators
+Эдемен для размещения контента
 
 | name                             | value                             | description         |
 | -------------------------------- | --------------------------------- | ------------------- |
@@ -25,21 +24,20 @@ Child for content. Contains close button.
 | space-t                          | s / m / l / xl / xxl / xxxl / 4xl | top padding         |
 
 
-### Close
-Button for closing surface. Contains any content.
+### __close
 
-#### Modificators
+Кнопка для закрытия контента
 
 | name | value            | description                         |
 | ---- | ---------------- | ----------------------------------- |
 | view | desktop / mobile | size of clickable area around block |
 
 
-### Action
-This child mix for open button with data-name on page.
+### __action
 
+Элемент необходимый для открытия окна, примиксовывается к любой сущности с атрибутом data-name.
 
-## EXAMPLE
+## Пример
 
 ```javascript
 {
