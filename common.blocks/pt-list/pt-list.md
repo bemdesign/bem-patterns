@@ -1,0 +1,56 @@
+# Блок списка
+Используется для вертикального представления повторяющихся сущностей.
+
+## Пример
+```
+{
+	block: 'pt-list',
+	mods: { view: 'default' },
+	content: [
+		{
+			elem: 'item',
+			elemMods: { 'space-h': 'l', 'space-v': 's' },
+			content: [ ... ]
+		},
+		{
+			elem: 'item',
+			elemMods: { 'space-h': 'l', 'space-v': 's' },
+			content: [ ... ]
+		},
+		{
+			elem: 'item',
+			elemMods: { 'space-h': 'l', 'space-v': 's' },
+			content: [ ... ]
+		}
+	]
+}
+```
+
+
+## Модификации
+
+### __pt-list
+
+| Модификатор | Значение                     | Описание                |  
+| ----------- | ---------------------------- | ----------------------- |
+| view        | default / ghost / inverse    | Фон блока               |
+| border      | all                          | Круговой бордер блока   |
+| shadow      | cloud                        | Тень                    |
+
+
+### __item
+
+| Модификатор | Значение                        | Описание                |  
+| ----------- | ------------------------------- | ----------------------- |
+| border      | top / bottom / right / left     | Бордер строк            |
+| border      | all                             | Круговой бордер блока   |
+| shadow      | cloud                           | Тень                    |
+| distribute      | default / between           | Распределение контента по горизонтали |
+| space-a / space-v / space-h / space-t / space-b / space-r / space-l | xxs / xs / s / m / l / xl / xxl    | Внутренние отступы |
+| indent-a / indent-v / indent-h / indent-t / indent-b / indent-r / indent-l | xs / s / m / l / xl / xxl / xxxl | Внешние отступы |
+
+
+
+
+
+
