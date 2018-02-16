@@ -3,7 +3,7 @@
 	flex-shrink: 1;
 	margin-right: var(--space-xl);
 	
-	&:last-child {
+	&:last-child, &:only-child {
 		margin-right: 0px;
 	}
 }

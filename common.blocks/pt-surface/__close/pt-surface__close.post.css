@@ -1,5 +1,5 @@
 .pt-surface__close {
-	position: absolute;
+	position: fixed;
 	top: var(--space-m);
 	right: var(--space-m);
 	cursor: pointer;

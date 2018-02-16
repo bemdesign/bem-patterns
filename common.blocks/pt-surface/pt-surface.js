@@ -1,16 +1,20 @@
-$('.pt-surface__action').on('click', function(e){
-	showPopup(e);
+$('.pt-surface__action').on('click', function(){
+	var __this = $(this);
+
+	showPopup(__this);
+
+	return false;
 });
 
 $('.pt-surface__close').on('click', function(){
 	hidePopup();
 });
 
-function showPopup(event) {
-	var attribute = $(event.target.attributes['data-name']).val();
+function showPopup(__this) {
+	var attribute = __this.attr('data-name');
 
-	$("div#"+attribute).fadeIn(220);
-	$('body').attr('style', 'height: 100vh; overflow: hidden;');
+	$("#"+attribute).fadeIn(220);
+	$('body').attr('style', 'min-height: 100vh; overflow: hidden;');
 }
 
 function hidePopup() {
