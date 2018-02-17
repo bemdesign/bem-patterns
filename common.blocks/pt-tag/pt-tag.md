@@ -17,13 +17,14 @@
 	block: 'pt-tag',
 	mods: { size: 's', view: 'default' },
 	content: [
-	{
-		elem: 'text',
-		content: 'Классный тег'
-	},
-	{
-		elem: 'delete',
-		mix: { block: 'icon', mods: { 'delete-2': 's-ghost' } }
-	}]
+		{
+			elem: 'text',
+			content: 'Классный тег'
+		},
+		{
+			elem: 'delete',
+			mix: { block: 'icon', mods: { 'delete-2': 's-ghost' } }
+		}
+	]
 }
 ```
