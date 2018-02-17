@@ -33,10 +33,9 @@
 
 ### __action
 Элемент примиксовывается к контроллу на странице с data-name атрибутом, для открытия «сюрфейса».
-This child mix for open button with data-name on page.
 
 
-## Example
+## Пример
 
 ```javascript
 {
