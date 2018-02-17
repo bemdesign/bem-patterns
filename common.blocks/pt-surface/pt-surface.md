@@ -38,6 +38,7 @@ This child mix for open button with data-name on page.
 ## Example
 
 ```javascript
+```javascript
 {
 	block: 'link',
 	attrs: { 'data-name': 'modal-1' },
@@ -51,25 +52,28 @@ This child mix for open button with data-name on page.
 	},
 	mods: { view: 'soft' },
 	content: [
-	{
-		elem: 'window',
-		content: [
 		{
-			elem: 'content',
-			elemMods: { size: 's', view: 'default', 'space-a': 'xl' },
+			elem: 'window',
 			content: [
-			{
-				elem: 'close',
-				content:
 				{
-					block: 'icon',
-					mods: { close: 's-primary'}
+					elem: 'content',
+					elemMods: { size: 's', view: 'default', 'space-a': 'xl' },
+					content: [
+						{
+							elem: 'close',
+							content:
+							{
+								block: 'icon',
+								mods: { close: 's-primary'}
+							}
+						},
+						{
+							/* content */
+						}
+					]
 				}
-			},
-			{
-				/* content */
-			}]
-		}]
-	}]
+			]
+		}
+	]
 },
 ```
