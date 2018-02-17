@@ -75,5 +75,5 @@ This child mix for open button with data-name on page.
 			]
 		}
 	]
-},
+}
 ```
