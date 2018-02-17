@@ -1,4 +1,4 @@
-# PT-SURFACE
+# Surface
 Pattern for modal blocks. Should have the ID.
 
 ## MODIFICATORS
