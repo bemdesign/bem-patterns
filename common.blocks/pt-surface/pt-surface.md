@@ -35,7 +35,7 @@ Button for closing surface. Contains any content.
 This child mix for open button with data-name on page.
 
 
-## EXAMPLE
+## Example
 
 ```javascript
 {
