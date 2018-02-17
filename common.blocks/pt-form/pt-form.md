@@ -39,40 +39,41 @@
 	block: 'pt-form',
 	mods: { view: 'ghost' },
 	content: [
-	{
-		elem: 'item',
-		elemMods: { 'space-h': 'xl', 'space-v': 'xl', },
-		content: [ 'Free to join' ]
-	},
-	{
-		elem: 'item',
-		elemMods: { 'space-h': 'xl' },
-		content: [
-			{
-				elem: 'item',
-				elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
-				content: [
-					{ elem: 'label' },
-					{ elem: 'control' }
-				]
-			},
-			{
-				elem: 'item',
-				elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
-				content: [
-					{ elem: 'label' },
-					{ elem: 'control' }
-				]
-			}
-		]
-	},
-	{
-		elem: 'item',
-		elemMods: { 'space-a': 'xl', type: 'action', 'vertical-align': 'center' },
-		content: [
-			{ block: 'text' },
-			{ block: 'button' }
-		]
-	}]
+		{
+			elem: 'item',
+			elemMods: { 'space-h': 'xl', 'space-v': 'xl', },
+			content: [ 'Free to join' ]
+		},
+		{
+			elem: 'item',
+			elemMods: { 'space-h': 'xl' },
+			content: [
+				{
+					elem: 'item',
+					elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+					content: [
+						{ elem: 'label' },
+						{ elem: 'control' }
+					]
+				},
+				{
+					elem: 'item',
+					elemMods: { 'indent-b': 'l', 'distribute': 'between', 'vertical-align': 'center' },
+					content: [
+						{ elem: 'label' },
+						{ elem: 'control' }
+					]
+				}
+			]
+		},
+		{
+			elem: 'item',
+			elemMods: { 'space-a': 'xl', type: 'action', 'vertical-align': 'center' },
+			content: [
+				{ block: 'text' },
+				{ block: 'button' }
+			]
+		}
+	]
 }
 ```
