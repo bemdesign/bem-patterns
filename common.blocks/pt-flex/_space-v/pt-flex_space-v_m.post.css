@@ -1,9 +1,0 @@
-.pt-flex_space-v_m {
-	padding-top: calc(var(--space-m) / 2);
-	padding-bottom: calc(var(--space-m) / 2);
-
-	& .pt-flex__col {
-		padding-top: calc(var(--space-m) / 2);
-		padding-bottom: calc(var(--space-m) / 2);
-	}
-}

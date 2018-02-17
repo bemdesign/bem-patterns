@@ -1,7 +1,0 @@
-.pt-flex_space-a_l {
-	padding: calc(var(--space-l) / 2);
-
-	& .pt-flex__col {
-		padding: calc(var(--space-l) / 2);
-	}
-}
