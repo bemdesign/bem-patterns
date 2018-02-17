@@ -1,21 +1,19 @@
 # Surface
 Pattern for modal blocks. Should have the ID.
 
-## MODIFICATORS
+## Modificators
+
+### pt-surface
 | name        | value           | description                      |
 | ----------- | --------------- | -------------------------------- |
 | view        | tone / default  | color of background with opacity |
 
 
-## CHILDS
-
-### Window
+### __window
 Child for align content in center.
 
-### Content
+### __content
 Child for content. Contains close button.
-
-#### Modificators
 
 | name                             | value                             | description         |
 | -------------------------------- | --------------------------------- | ------------------- |
@@ -25,17 +23,15 @@ Child for content. Contains close button.
 | space-t                          | s / m / l / xl / xxl / xxxl / 4xl | top padding         |
 
 
-### Close
+### __close
 Button for closing surface. Contains any content.
-
-#### Modificators
 
 | name | value            | description                         |
 | ---- | ---------------- | ----------------------------------- |
 | view | desktop / mobile | size of clickable area around block |
 
 
-### Action
+### __action
 This child mix for open button with data-name on page.
 
 
