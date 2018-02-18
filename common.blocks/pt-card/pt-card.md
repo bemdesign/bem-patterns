@@ -54,7 +54,24 @@
 
 
 ## Пример
-```
-
+```javascript
+{
+  block: 'pt-card',
+  mods: { view: 'inverse' },
+  content: [
+    {
+      elem: 'header',
+      content: [ ... ]
+    },
+    {
+      elem: 'content',
+      content: [ ... ]
+    },
+    {
+      elem: 'footer',
+      content: [ ... ]
+    }
+  ]
+}
 ```
 
