@@ -1,4 +1,4 @@
 .pt-list__item_space-h_l {
-	margin-left: var(--space-l);
-	margin-right: var(--space-l);
+	padding-left: var(--space-l);
+	padding-left: var(--space-l);
 }
