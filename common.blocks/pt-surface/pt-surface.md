@@ -6,7 +6,7 @@
 ### pt-surface
 | Модификатор | Значение        | Описание                         |
 | ----------- | --------------- | -------------------------------- |
-| view        | tone / default  | color of background with opacity |
+| view        | tone / default  | Цвет фона с прозрачностью        |
 
 
 ### __window
@@ -17,18 +17,18 @@
 
 | Модификатор                      | Значение                          | Описание            |
 | -------------------------------- | --------------------------------- | ------------------- |
-| size                             | xs / s / m / full                 | block width         |
-| view                             | default / inverse                 | block background    |
-| space-a / -v / -h / -b / -l / -r | s / m / l / xl                    | paddings            |
-| space-t                          | s / m / l / xl / xxl / xxxl / 4xl | top padding         |
+| size                             | xs / s / m / full                 | Ширина блока width  |
+| view                             | default / inverse                 | Фон блока           |
+| space-a / -v / -h / -b / -l / -r | s / m / l / xl                    | Внутренние отступы  |
+| space-t                          | s / m / l / xl / xxl / xxxl / 4xl | Верхний отступ      |
 
 
 ### __close
 Контролл для закрытия «сюрфейса». Может содержать любой контент (иконку). 
 
-| Модификатор | Значение         | Описание                            |
-| ----------- | ---------------- | ----------------------------------- |
-| view        | desktop / mobile | size of clickable area around block |
+| Модификатор | Значение         | Описание                                    |
+| ----------- | ---------------- | ------------------------------------------- |
+| view        | desktop / mobile | Размер кликабельной области вокруг элемента |
 
 
 ### __action
