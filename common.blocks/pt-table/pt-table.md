@@ -39,77 +39,86 @@
 	block: 'pt-table',
 	mods: { view: 'default', 'space-a': 's', stripe: 'even' },
 	content: [
-	{
-		elem: 'row',
-		elemMods: { 'view': 'head' },
-		content: [
 		{
-			elem: 'col',
-			elemMods: { width: '30' },
+			elem: 'row',
+			elemMods: { 'view': 'head' },
 			content: [
-			{
-				block: 'text',
-				mods: { size: 'xs', view: 'ghost', weight: 'bold', transform: 'uppercase', spacing: 'xs' },
-				content: 'Модификатор'
-			}]
+				{
+					elem: 'col',
+					elemMods: { width: '30' },
+					content: [
+						{
+							block: 'text',
+							mods: { size: 'xs', view: 'ghost', weight: 'bold', transform: 'uppercase', spacing: 'xs' },
+							content: 'Модификатор'
+						}
+					]
+				},
+				{
+					elem: 'col',
+					elemMods: { width: '35' },
+					content: [
+						{
+							block: 'text',
+							mods: { size: 'xs', view: 'ghost', weight: 'bold', transform: 'uppercase', spacing: 'xs' },
+							content: 'Значение'
+						}
+					]
+				},
+				{
+					elem: 'col',
+					elemMods: { width: '35' },
+					content: [
+						{
+							block: 'text',
+							mods: { size: 'xs', view: 'ghost', weight: 'bold', transform: 'uppercase', spacing: 'xs' },
+							content: 'Описание'
+						}
+					]
+				}
+			]
 		},
 		{
-			elem: 'col',
-			elemMods: { width: '35' },
+			elem: 'row',
 			content: [
-			{
-				block: 'text',
-				mods: { size: 'xs', view: 'ghost', weight: 'bold', transform: 'uppercase', spacing: 'xs' },
-				content: 'Значение'
-			}]
-		},
-		{
-			elem: 'col',
-			elemMods: { width: '35' },
-			content: [
-			{
-				block: 'text',
-				mods: { size: 'xs', view: 'ghost', weight: 'bold', transform: 'uppercase', spacing: 'xs' },
-				content: 'Описание'
-			}]
-		}]
-	},
-	{
-		elem: 'row',
-		content: [
-		{
-			elem: 'col',
-			elemMods: { width: '30' },
-			content: [
-			{
-				block: 'text',
-				tag: 'a',
-				attrs: { href: '#view' },
-				mods: { size: 'm', view: 'link' },
-				content: 'view'
-			}]
-		},
-		{
-			elem: 'col',
-			elemMods: { width: '35' },
-			content: [
-			{
-				block: 'text',
-				mods: { size: 'm', view: 'primary' },
-				content: 'default / ghost / inverse'
-			}]
-		},
-		{
-			elem: 'col',
-			elemMods: { width: '35' },
-			content: [
-			{
-				block: 'text',
-				mods: { size: 'm', view: 'primary' },
-				content: 'Фона блока'
-			}]
-		}]
-	}]
+				{
+					elem: 'col',
+					elemMods: { width: '30' },
+					content: [
+						{
+							block: 'text',
+							tag: 'a',
+							attrs: { href: '#view' },
+							mods: { size: 'm', view: 'link' },
+							content: 'view'
+						}
+					]
+				},
+				{
+					elem: 'col',
+					elemMods: { width: '35' },
+					content: [
+						{
+							block: 'text',
+							mods: { size: 'm', view: 'primary' },
+							content: 'default / ghost / inverse'
+						}
+					]
+				},
+				{
+					elem: 'col',
+					elemMods: { width: '35' },
+					content: [
+						{
+							block: 'text',
+							mods: { size: 'm', view: 'primary' },
+							content: 'Фона блока'
+						}
+					]
+				}
+			]
+		}
+	]
 }
 ```
 
