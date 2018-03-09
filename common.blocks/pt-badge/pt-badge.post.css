@@ -5,10 +5,9 @@
 	box-sizing: border-box;
 	padding: var(--space-xxs) var(--space-s);
 	overflow: hidden;
-	
 	color: var(--color-inverse);
-	border-radius: 12px;
-	
+	border-radius: 99em;
+	font-size: var(--size-typo-s);
 	font-weight: bold;
 	font-weight: 500;
 	white-space: nowrap;

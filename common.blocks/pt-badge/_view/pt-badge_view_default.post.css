@@ -1,4 +1,4 @@
 .pt-badge_view_default {
-	background: var(--color-border);
-	color: var(--color-typo-secondary);
+	background: var(--color-default);
+	color: var(--color-typo-primary);
 }
