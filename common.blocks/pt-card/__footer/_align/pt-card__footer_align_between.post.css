@@ -1,5 +1,3 @@
 .pt-card__footer_align_between {
-	display: flex;
-	align-items: center;
 	justify-content: space-between;
 }
