@@ -1,5 +1,4 @@
 .pt-icon-plus__block {
-	flex-grow: 1;
 	position: relative;
 	top: 1px; /* fix */
 }

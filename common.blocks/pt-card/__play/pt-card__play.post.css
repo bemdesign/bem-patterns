@@ -5,8 +5,8 @@
 	z-index: 99;
 	top: 50%;
 	left: 50%;
-	margin-left: -var(--space-l);
-	margin-top: -var(--space-l);
+	margin-left: calc(-1 * var(--space-l));
+	margin-top: calc(-1 * var(--space-l));
 	width: 0;
 	height: 0;
 	border-top: var(--space-l) solid transparent;
