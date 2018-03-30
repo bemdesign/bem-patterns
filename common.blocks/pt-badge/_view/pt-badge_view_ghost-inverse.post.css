@@ -1,4 +1,5 @@
-.pt-badge_view_ghost-inverse {
-	color: var(--color-inverse);
-	background-color: var(--color-ghost-inverse);
+/* DEPRECATED */
+.pt-badge_view_inverse {
+	color: var(--color-typo-primary);
+	background: var(--color-default);
 }
