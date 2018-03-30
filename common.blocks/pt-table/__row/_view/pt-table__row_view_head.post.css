@@ -4,6 +4,6 @@
 		background: transparent;
 	}
 	& + .pt-table__row {
-		margin-top: 0;
+		margin-top: 0px;
 	}
 }
