@@ -1,27 +1,3 @@
 .pt-informer_view_success {
 	background: var(--color-success);
-	.button2_theme {
-		&_action {
-			&::before {
-				background: var(--color-default);
-			}
-			.button2__text {
-				color: var(--color-success);
-			}
-			&:active {
-				&::before {
-					background: var(--color-default);
-				}
-			}
-		}
-		&_normal {
-			&::before {
-				background: rgba(0,0,0,0.05);
-				border-color: transparent;
-			}
-			.button2__text {
-				color: var(--color-typo-inverse);
-			}
-		}
-	}
 }
