@@ -8,7 +8,6 @@
 	color: var(--color-inverse);
 	border-radius: 99em;
 	font-size: var(--size-typo-s);
-	font-weight: bold;
 	font-weight: 500;
 	white-space: nowrap;
 	text-overflow: ellipsis;
