@@ -2,7 +2,7 @@
 	border-radius: 50%;
 	height: 100%;
 	overflow: hidden;
-	background-image: url('example.png');
+	background-image: url('default.svg');
 	background-size: cover;
 	object-fit: cover;
 }
