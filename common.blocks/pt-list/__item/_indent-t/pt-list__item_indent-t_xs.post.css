@@ -1,6 +1,6 @@
 .pt-list__item_indent-t_xs {
 	margin-top: var(--space-xs);
 	&:fisrt-child {
-		margin-top: 0;
+		margin-top: 0px;
 	}
 }

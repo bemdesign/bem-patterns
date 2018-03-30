@@ -1,6 +1,6 @@
 .pt-list__item_space-t_s {
 	padding-top: var(--space-s);
 	&:first-child {
-		padding-top: 0;
+		padding-top: 0px;
 	}
 }

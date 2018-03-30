@@ -1,6 +1,6 @@
 .pt-list__item_indent-b_xxxl {
 	margin-bottom: var(--space-xxxl);
 	&:last-child {
-		margin-bottom: 0;
+		margin-bottom: 0px;
 	}
 }
