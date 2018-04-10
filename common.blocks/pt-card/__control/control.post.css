@@ -1,0 +1,12 @@
+/* DEPRECATED */
+.pt-card__control {
+	position: absolute;
+	top: var(--space-l);
+	right: var(--space-l);
+	cursor: pointer;
+	z-index: 99;
+	opacity: 0.4;
+	&:hover {
+		opacity: 1;
+	}
+}

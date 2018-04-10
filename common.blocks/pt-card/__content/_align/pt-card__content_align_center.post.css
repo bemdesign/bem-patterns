@@ -1,4 +1,5 @@
 .pt-card__content_align_center {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 }
