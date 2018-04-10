@@ -4,7 +4,8 @@
 		&:hover {
 			background: var(--color-stripe);
 		}
-		&_view_head, &_head:hover {
+		&_view_head,
+		&_head:hover {
 			background: transparent;
 		}
 	}
