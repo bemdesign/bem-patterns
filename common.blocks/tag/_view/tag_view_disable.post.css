@@ -1,4 +1,4 @@
-.pt-tag_view_disable {
+.tag_view_disable {
 	color: var(--color-typo-ghost);
 	background: var(--color-border);
 	.pt-tag__delete {

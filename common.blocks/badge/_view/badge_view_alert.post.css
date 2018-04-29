@@ -1,4 +1,4 @@
-.pt-badge_view_alert {
+.badge_view_alert {
 	background: color($color-alert a(10%));
 	color: var(--color-typo-alert);
 }

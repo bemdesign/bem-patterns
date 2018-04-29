@@ -1,4 +1,4 @@
-.pt-tag_size_s {
+.tag_size_s {
 	height: calc(var(--space-xl) + var(--space-xxs));
 	padding: 0 var(--space-s);
 	border-radius: var(--space-m);

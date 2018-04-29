@@ -12,7 +12,7 @@
 ## Пример
 ```
 {
-	block: 'pt-avatar',
+	block: 'avatar',
 	content: [
 		{
 			elem: 'photo',

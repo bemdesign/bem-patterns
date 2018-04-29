@@ -1,4 +1,4 @@
-.pt-tag_view_link {
+.tag_view_link {
 	color: var(--color-typo-secondary);
 	background: color($color-link h(-7%) s(-13) l(+14) a(40%));
 	cursor: pointer;
