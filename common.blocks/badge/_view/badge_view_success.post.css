@@ -1,4 +1,4 @@
 .badge_view_success {
-	background: color($color-success s(-20%) l(+60%));
+	background: var(--color-bg-success);
 	color: var(--color-typo-success);
 }

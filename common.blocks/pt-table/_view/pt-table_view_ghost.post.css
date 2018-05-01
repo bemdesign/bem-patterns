@@ -1,8 +1,0 @@
-.pt-table_view_ghost {
-	.pt-table__row {
-		background: var(--color-ghost);
-		&_view_head {
-			background: transparent;
-		}
-	}
-}

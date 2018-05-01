@@ -1,6 +1,6 @@
 {
   "name": "bem-patterns",
-  "version": "4.4.23",
+  "version": "5.0.0",
   "description": "patters",
   "main": "index.js",
   "scripts": {

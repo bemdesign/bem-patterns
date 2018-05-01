@@ -1,25 +1,4 @@
 .pt-icon-plus {
 	display: flex;
 	flex-wrap: nowrap;
-	
-	/* DEPRECATED */
-	&__icon {
-		&_indent-right {
-			&_xxs {
-				margin-right: var(--space-xxs);
-			}
-			&_xs {
-				margin-right: var(--space-xs);
-			}
-			&_s {
-				margin-right: var(--space-s);
-			}
-			&_m {
-				margin-right: var(--space-m);
-			}
-			&_l {
-				margin-right: var(--space-l);
-			}
-		}
-	}
 }
